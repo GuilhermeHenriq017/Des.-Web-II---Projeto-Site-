@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contatos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <title>Moto Net</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="navMenu">
+            <div class="img-motologo">
+                <a href="./index.html">
+                    <img id="logo" src="./img/motologo.png" alt="motologo" width="125px" title="Moto Net">
+
+                </a>
+                <h1>MOTO NET</h1>
+            </div>
+
+
+            <div class = "Busca">
+                <input type = "text" class ="txtBusca"  placeholder="Buscar..."/>
+            </div>
+
+            <nav>
+                <ul>
+                    <li> <a href="./index.html"> Home </a></li>
+                    <li> <a href="./motos.html"> Motos </a></li>
+                    <li> <a href="./acessorios.html"> Acessórios </a></li>
+                    <li> <a href="./pecas.html"> Peças </a></li>
+                    <li> <a href="./contatos.html"> Cadastro </a></li>
+                    <li> <a href="./informacoes.html"> Informações </a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+
+    <div class ="content">
+        <main>
+
+            <h2>Cadastro</h2>
+
+                <form action="">
+                    <div class="cadastro">            
+                        <div class="dados">
+                             <div >
+                                 <span class= "cadastro">Nome</span>
+                                 <input type="text" class="input" />
+                             </div>
+        
+                            <div >
+                                <span class= "cadastro" >CPF</span>
+                                <input type="text" class="input" />
+                            </div>
+                        </div>
+
+
+                        <div class="dados">
+                            <div >
+                                <span class= "cadastro">Data Nascimento</span>
+                                <input type="date" id="dtNasc" class="input" />
+                            </div>
+
+                            <div >
+                               <span class= "cadastro" >e-mail</span>
+                               <input type="email" id="email" class="input" />
+                            </div>
+                        </div>
+
+                        <div class="dados">
+                            <div >
+                                <span class= "cadastro">Sexo</span>
+                                  <select name="sexo" id="genero" class="input">
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Feminino">Feminino</option>
+                                  </select>
+                            </div>
+
+                            <div>
+                               <span class= "cadastro" >Senha</span>
+                               <input type="Password" id="Senha" class="input" />
+                            </div>
+                        </div>
+
+                        <div class="dados">
+                            <div >
+                               <span class= "cadastro">Celular</span>
+                               <input type="tel" id="celular" class="input" value="( )" />
+                            </div>
+                            <div >
+                                <span class= "cadastro">Confirmar Senha</span>
+                                <input type="password" id="ConfirmSenha" class="input"/>
+                             </div>
+                        </div>
+                    </div>
+
+                    <Link to="#">
+                       <button class="salvar">Salvar</button>
+                    </Link>
+                </form>
+
+
+    <footer> 
+
+        <img src="./img/motologo.png" alt="motonet">
+            <h1>INSTITUCIONAL</h1>
+
+
+            <ul class="ulfooter" >
+                <li><a href="./informacoes.html">Informações</a></li>
+                <li><a href="#">Minha Conta</a>  </li>
+                <li><a href="#">Fale conosco</a>  </li>
+
+            </ul>
+
+        <nav id="social">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./img/facebook-64x64.png" alt="Facebook">
+                        <span>/MotoNet</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/instagram-64x64.png" alt="Instagram">
+                        <span>/@motonet</span>    
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./img/whatsapp-64x64.png" alt="Whatspp">
+                        <span>(16) 99287-4321</span>    
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
